@@ -13,14 +13,14 @@ export const About = () => {
       <Container fluid="md" className="mt-5">
   
         <Row>
-          <Col >
+          <Col sm={8} >
             <Imagen
               src={"../../public/chef1.jpg"}
-              width={"85%"}
-              height={"100%"}
+              width={"90%"}
+              height={"auto"}
             />
           </Col>
-          <Col>
+          <Col sm={4}>
             <p className="text-just">
               ANDREA BERNARDI Andrea Bernardi, born on 5 July 1977 in Rome.
               Raised in Genzano di Roma, he learned the basics of Italian
@@ -44,8 +44,8 @@ export const About = () => {
         <br />
         <br />
         <Row>
-          <Col>
-            <p className="text-just m-lg-5">
+          <Col sm={4}>
+            <p className="text-just">
               FERNANDA FUENTES CÁRDENAS Fernanda Fuentes Cárdenas was born in
               Quilpué, in the Valparaíso region of Chile, 34 years ago. She
               defines herself as a mixed race chef of acid roots, spicy soul and
@@ -66,11 +66,11 @@ export const About = () => {
               star.
             </p>
           </Col>
-          <Col >
+          <Col sm={8} align="right" >
             <Imagen
               src={"../../public/chef2.jpg"}
-              width={"85%"}
-              height={"100%"}
+              width={"90%"}
+              height={"auto"}
             />
           </Col>
         </Row>
@@ -80,6 +80,7 @@ export const About = () => {
         <Row>
           {/* ultimo set de fotos galeria */}
           <Col sm={12}>
+            <hr />
             <h1 className="text-center">Picture Book</h1>
           </Col>
 
@@ -103,7 +104,9 @@ export const About = () => {
             <Imagen src={"../../public/chef6.jpg"} width={300} height={300} />
           </Col>
           <br />
+      
         </Row>
+        <br /><br />
       </Container>
     </>
   );

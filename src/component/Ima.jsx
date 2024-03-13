@@ -1,18 +1,20 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ButtonSend from './ButtonSend';
+import  './Ima.css';
 
 function Ima() {
   return (
-    <Carousel data-bs-theme="dark">
+    <Carousel data-bs-theme="ligth">
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="./public/photo2.jpg"
           alt="First slide"
+         
         />
         <Carousel.Caption>
-          <h5></h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>xxxxxxxxxxxx</h5>
+          <h3><p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,21 +25,22 @@ function Ima() {
         />
         <Carousel.Caption>
           <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+        <Carousel.Caption>
+          <h5><ButtonSend /></h5>
+          <h3><p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p></h3>
+        </Carousel.Caption>
         <img
           className="d-block w-100"
           src="./public/photo4.jpg"
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h5><ButtonSend /></h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+
       </Carousel.Item>
     </Carousel>
   );

@@ -10,8 +10,8 @@ function NavbarMenu() {
       <Container>
         <Navbar.Brand as={Link} to="/">  <img
               src="../../public/logo2.jpg"
-              width="120"
-              height="120"
+              width="180"
+              height="180"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             /> </Navbar.Brand>

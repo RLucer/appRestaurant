@@ -1,0 +1,82 @@
+
+[
+    {
+        "category": "Carnes",
+        "code": "meat_plates",
+        "content": [
+            {
+                "plate": "Solomillo taburete",
+                "specification": "Muy poco hecho",
+                "price": "18",
+                "allergen": [
+                    "https:\/\/drive.google.com\/uc?id=1_VNClN6qKBg002OSrxGk2yzFrTvdSMwk",
+                    "https:\/\/drive.google.com\/uc?id=1GdNpiOXj_AhMKTw8i1E5O2AhSxPNoV1s",
+                    "https:\/\/drive.google.com\/uc?id=1OOT_U5DaVOySKYrrtpZqnpqDDM8R10e4"
+                ]
+            },
+            {
+                "plate": "Solomillo con bacon y setas",
+                "specification": "",
+                "price": "18",
+                "allergen": [
+                    "https:\/\/drive.google.com\/uc?id=1GdNpiOXj_AhMKTw8i1E5O2AhSxPNoV1s",
+                    "https:\/\/drive.google.com\/uc?id=1OOT_U5DaVOySKYrrtpZqnpqDDM8R10e4"
+                ]
+            },
+            {
+                "plate": "Solomillo con manzana frita",
+                "specification": "",
+                "price": "18",
+                "allergen": []
+            },
+            {
+                "plate": "Chulet\u00f3n de Cantabria con pimiento",
+                "specification": "",
+                "price": "20",
+                "allergen": []
+            },
+            {
+                "plate": "San Jacobo",
+                "specification": "",
+                "price": "15",
+                "allergen": [
+                    "https:\/\/drive.google.com\/uc?id=1_VNClN6qKBg002OSrxGk2yzFrTvdSMwk",
+                    "https:\/\/drive.google.com\/uc?id=1I9e6-tckM-zk7VZPTpQo9WcYD4utjFLM"
+                ]
+            },
+            {
+                "plate": "Filete de ternera a la plancha",
+                "specification": "",
+                "price": "12",
+                "allergen": []
+            },
+            {
+                "plate": "Lomo de cerdo a la plancha",
+                "specification": "",
+                "price": "12",
+                "allergen": []
+            },
+            {
+                "plate": "Escalope",
+                "specification": "",
+                "price": "12",
+                "allergen": [
+                    "https:\/\/drive.google.com\/uc?id=1_VNClN6qKBg002OSrxGk2yzFrTvdSMwk",
+                    "https:\/\/drive.google.com\/uc?id=1I9e6-tckM-zk7VZPTpQo9WcYD4utjFLM"
+                ]
+            },
+            {
+                "plate": "Chulet\u00f3n de vaca vieja a la plancha con parrillada vegetal",
+                "specification": "Plato especial",
+                "price": "24",
+                "allergen": []
+            },
+            {
+                "plate": "",
+                "specification": "",
+                "price": "3",
+                "allergen": []
+            }
+        ]
+    }
+]

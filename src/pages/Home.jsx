@@ -10,12 +10,12 @@ export const Home = () => {
     <Container className=''>
       <Row>
         <Col sm={12}><Ima /></Col>
-        {/* <Col sm={4}>sm=4</Col> */}
+    
       </Row>
       <Row>
-        <Col sm>sm=true</Col>
-        <Col sm>sm=true</Col>
-        <Col sm>sm=true</Col>
+        <Col sm></Col>
+        <Col sm></Col>
+        <Col sm></Col>
       </Row>
     </Container>
   );
