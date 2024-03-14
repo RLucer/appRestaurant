@@ -7,16 +7,16 @@ import Ima from '../component/Ima';
 
 export const Home = () => {
   return (
-    <Container className=''>
+    <Container >
       <Row>
         <Col sm={12}><Ima /></Col>
     
       </Row>
-      <Row>
+      {/* <Row>
         <Col sm></Col>
         <Col sm></Col>
         <Col sm></Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 }

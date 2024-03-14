@@ -15,8 +15,8 @@ export const About = () => {
         <Row>
           <Col sm={8} >
             <Imagen
-              src={"../../public/chef1.jpg"}
-              width={"90%"}
+              src={"./src/assets/image/chef1.jpg"}
+              width={"75%"}
               height={"auto"}
             />
           </Col>
@@ -68,8 +68,8 @@ export const About = () => {
           </Col>
           <Col sm={8} align="right" >
             <Imagen
-              src={"../../public/chef2.jpg"}
-              width={"90%"}
+              src={"./src/assets/image/chef2.jpg"}
+              width={"75%"}
               height={"auto"}
             />
           </Col>
@@ -86,22 +86,22 @@ export const About = () => {
 
           <Col sm>
             <br />
-            <Imagen src={"../../public/chef3.jpg"} width={300} height={300} />
+            <Imagen src={"./src/assets/image/chef3.jpg"} width={300} height={300} />
           </Col>
           <br />
           <Col sm>
             <br />
-            <Imagen src={"../../public/chef4.jpg"} width={300} height={300} />
+            <Imagen src={"./src/assets/image/chef4.jpg"} width={300} height={300} />
           </Col>
           <br />
           <Col sm>
             <br />
-            <Imagen src={"../../public/chef5.jpg"} width={300} height={300} />
+            <Imagen src={"./src/assets/image/chef5.jpg"} width={300} height={300} />
           </Col>
           <br />
           <Col sm>
             <br />
-            <Imagen src={"../../public/chef6.jpg"} width={300} height={300} />
+            <Imagen src={"./src/assets/image/chef6.jpg"} width={300} height={300} />
           </Col>
           <br />
       

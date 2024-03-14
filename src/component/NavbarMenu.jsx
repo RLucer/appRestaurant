@@ -9,7 +9,7 @@ function NavbarMenu() {
     <Navbar expand="lg" className="bg-body">
       <Container>
         <Navbar.Brand as={Link} to="/">  <img
-              src="../../public/logo2.jpg"
+              src="./src/assets/image/logo2.jpg"
               width="180"
               height="180"
               className="d-inline-block align-top"

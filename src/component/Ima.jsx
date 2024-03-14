@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ButtonSend from './ButtonSend';
-import  './Ima.css';
+import './Ima.css';
 
 function Ima() {
   return (
@@ -8,11 +8,11 @@ function Ima() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./public/photo2.jpg"
+          src="./src/assets/image/photo2.jpg"
           alt="First slide"
-         
         />
         <Carousel.Caption>
+          <h5><ButtonSend /></h5>
           <h5>xxxxxxxxxxxx</h5>
           <h3><p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></h3>
         </Carousel.Caption>
@@ -20,10 +20,11 @@ function Ima() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./public/photo3.jpg"
+          src="./src/assets/image/photo3.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
+          <h5><ButtonSend /></h5>
           <h5>Second slide label</h5>
           <h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></h3>
         </Carousel.Caption>
@@ -37,7 +38,7 @@ function Ima() {
         </Carousel.Caption>
         <img
           className="d-block w-100"
-          src="./public/photo4.jpg"
+          src="./src/assets/image/photo5.jpg"
           alt="Third slide"
         />
 
