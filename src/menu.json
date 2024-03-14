@@ -1,82 +1,64 @@
-
-[
-    {
-        "category": "Carnes",
-        "code": "meat_plates",
-        "content": [
-            {
-                "plate": "Solomillo taburete",
-                "specification": "Muy poco hecho",
-                "price": "18",
-                "allergen": [
-                    "https:\/\/drive.google.com\/uc?id=1_VNClN6qKBg002OSrxGk2yzFrTvdSMwk",
-                    "https:\/\/drive.google.com\/uc?id=1GdNpiOXj_AhMKTw8i1E5O2AhSxPNoV1s",
-                    "https:\/\/drive.google.com\/uc?id=1OOT_U5DaVOySKYrrtpZqnpqDDM8R10e4"
-                ]
-            },
-            {
-                "plate": "Solomillo con bacon y setas",
-                "specification": "",
-                "price": "18",
-                "allergen": [
-                    "https:\/\/drive.google.com\/uc?id=1GdNpiOXj_AhMKTw8i1E5O2AhSxPNoV1s",
-                    "https:\/\/drive.google.com\/uc?id=1OOT_U5DaVOySKYrrtpZqnpqDDM8R10e4"
-                ]
-            },
-            {
-                "plate": "Solomillo con manzana frita",
-                "specification": "",
-                "price": "18",
-                "allergen": []
-            },
-            {
-                "plate": "Chulet\u00f3n de Cantabria con pimiento",
-                "specification": "",
-                "price": "20",
-                "allergen": []
-            },
-            {
-                "plate": "San Jacobo",
-                "specification": "",
-                "price": "15",
-                "allergen": [
-                    "https:\/\/drive.google.com\/uc?id=1_VNClN6qKBg002OSrxGk2yzFrTvdSMwk",
-                    "https:\/\/drive.google.com\/uc?id=1I9e6-tckM-zk7VZPTpQo9WcYD4utjFLM"
-                ]
-            },
-            {
-                "plate": "Filete de ternera a la plancha",
-                "specification": "",
-                "price": "12",
-                "allergen": []
-            },
-            {
-                "plate": "Lomo de cerdo a la plancha",
-                "specification": "",
-                "price": "12",
-                "allergen": []
-            },
-            {
-                "plate": "Escalope",
-                "specification": "",
-                "price": "12",
-                "allergen": [
-                    "https:\/\/drive.google.com\/uc?id=1_VNClN6qKBg002OSrxGk2yzFrTvdSMwk",
-                    "https:\/\/drive.google.com\/uc?id=1I9e6-tckM-zk7VZPTpQo9WcYD4utjFLM"
-                ]
-            },
-            {
-                "plate": "Chulet\u00f3n de vaca vieja a la plancha con parrillada vegetal",
-                "specification": "Plato especial",
-                "price": "24",
-                "allergen": []
-            },
-            {
-                "plate": "",
-                "specification": "",
-                "price": "3",
-                "allergen": []
-            }
-        ]
-    }
-]
+{
+    "platos": [
+      {
+        "id":1,
+        "nombre": "Hamburguesa con queso",
+        "descripcion": "Una deliciosa hamburguesa con queso cheddar, lechuga, tomate y cebolla, servida en un panecillo tostado.",
+        "precio": 9990,
+        "ingredientes": [
+          "carne de res",
+          "queso cheddar",
+          "lechuga",
+          "tomate",
+          "cebolla",
+          "pan"
+        ],
+        "image":"../public/menu_burger_3.jpg",
+        "categoria": "Comida rápida"
+      },
+      {
+        "id":2,
+        "nombre": "Salmón a la parrilla",
+        "descripcion": "Filete de salmón fresco a la parrilla, acompañado de arroz integral y espárragos asados.",
+        "precio": 18590,
+        "ingredientes": [
+          "salmón",
+          "arroz integral",
+          "espárragos"
+        ],
+        "image":"../public/menu_pescado.jpg",
+        "categoria": "Pescados y mariscos"
+      },
+      {
+        "id":3,
+        "nombre": "Ensalada César",
+        "descripcion": "Una ensalada fresca con lechuga romana, crutones, queso parmesano rallado y aderezo César.",
+        "precio": 8990,
+        "ingredientes": [
+          "lechuga romana",
+          "crutones",
+          "queso parmesano",
+          "aderezo César"
+        ],
+        "image":"../public/menu_cesar.jpg",
+        "categoria": "Ensaladas"
+      }
+    ],
+    
+    "bebestible":[
+      {
+        "id":3,
+        "nombre": "Ensalada César",
+        "descripcion": "Una ensalada fresca con lechuga romana, crutones, queso parmesano rallado y aderezo César.",
+        "precio": 8990,
+        "ingredientes": [
+          "lechuga romana",
+          "crutones",
+          "queso parmesano",
+          "aderezo César"
+        ],
+        "image":"../public/menu_cesar.jpg",
+        "categoria": "Ensaladas"
+      }
+    ]
+  }

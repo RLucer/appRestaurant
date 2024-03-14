@@ -7,6 +7,7 @@ import NavbarMenu from "./component/NavbarMenu";
 import { Food } from "./pages/Food";  
 
 
+
 function App() {
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
         <Route path="/Food" element={<Food />}></Route>
         <Route path="/*" element={<Navigate to={"/"} />} ></Route>
       </Routes>
-    
+ 
     </>
   );
 }
