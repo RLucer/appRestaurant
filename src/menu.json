@@ -1,64 +1,82 @@
 {
-    "platos": [
-      {
-        "id":1,
-        "nombre": "Hamburguesa con queso",
-        "descripcion": "Una deliciosa hamburguesa con queso cheddar, lechuga, tomate y cebolla, servida en un panecillo tostado.",
-        "precio": 9990,
-        "ingredientes": [
-          "carne de res",
-          "queso cheddar",
-          "lechuga",
-          "tomate",
-          "cebolla",
-          "pan"
-        ],
-        "image":"./src/assets/image/menu_burger_3.jpg",
-        "categoria": "Comida rápida"
-      },
-      {
-        "id":2,
-        "nombre": "Salmón a la parrilla",
-        "descripcion": "Filete de salmón fresco a la parrilla, acompañado de arroz integral y espárragos asados.",
-        "precio": 18590,
-        "ingredientes": [
-          "salmón",
-          "arroz integral",
-          "espárragos"
-        ],
-        "image":"./src/assets/image/menu_pescado.jpg",
-        "categoria": "Pescados y mariscos"
-      },
-      {
-        "id":3,
-        "nombre": "Ensalada César",
-        "descripcion": "Una ensalada fresca con lechuga romana, crutones, queso parmesano rallado y aderezo César.",
-        "precio": 8990,
-        "ingredientes": [
-          "lechuga romana",
-          "crutones",
-          "queso parmesano",
-          "aderezo César"
-        ],
-        "image":"./src/assets/image/menu_cesar.jpg",
-        "categoria": "Ensaladas"
-      }
-    ],
-    
-    "bebestible":[
-      {
-        "id":3,
-        "nombre": "Ensalada César",
-        "descripcion": "Una ensalada fresca con lechuga romana, crutones, queso parmesano rallado y aderezo César.",
-        "precio": 8990,
-        "ingredientes": [
-          "lechuga romana",
-          "crutones",
-          "queso parmesano",
-          "aderezo César"
-        ],
-        "image":"./src/assets/image/menu_cesar.jpg",
-        "categoria": "Ensaladas"
-      }
-    ]
-  }
+  "platos": [
+    {
+      "id": 1,
+      "nombre": "Hamburguesa con queso",
+      "descripcion": "Una deliciosa hamburguesa con queso cheddar, lechuga, tomate y cebolla, servida en un panecillo tostado.",
+      "precio": 9990,
+      "ingredientes": [
+        "carne de res",
+        "queso cheddar",
+        "lechuga",
+        "tomate",
+        "cebolla",
+        "pan"
+      ],
+      "image": "./src/assets/image/menu_burger_3.jpg",
+      "categoria": "Comida rápida"
+    },
+    {
+      "id": 2,
+      "nombre": "Salmón a la parrilla",
+      "descripcion": "Filete de salmón fresco a la parrilla, acompañado de arroz integral y espárragos asados.",
+      "precio": 18590,
+      "ingredientes": [
+        "salmón",
+        "arroz integral",
+        "espárragos"
+      ],
+      "image": "./src/assets/image/menu_pescado.jpg",
+      "categoria": "Pescados y mariscos"
+    },
+    {
+      "id": 3,
+      "nombre": "Ensalada César",
+      "descripcion": "Una ensalada fresca con lechuga romana, crutones, queso parmesano rallado y aderezo César.",
+      "precio": 8990,
+      "ingredientes": [
+        "lechuga romana",
+        "crutones",
+        "queso parmesano",
+        "aderezo César"
+      ],
+      "image": "./src/assets/image/menu_cesar.jpg",
+      "categoria": "Ensaladas"
+    }
+  ],
+  "bebestible": [
+    {
+      "id": 4,
+      "nombre": "Bebidas",
+      "descripcion": "Coca Cola, CCU",
+      "precio": 1990,
+      "ingredientes": [
+        ""
+      ],
+      "image": "./src/assets/image/bebida.jpg",
+      "categoria": "Gaseosas"
+    },
+    {
+      "id": 5,
+      "nombre": "Aperitivos",
+      "descripcion": "Pisco Sour, Vaina, Negroni, Bloody Mary",
+      "precio": 4990,
+      "ingredientes": [
+        ""
+      ],
+      "image": "./src/assets/image/pisco_sour.jpg",
+      "categoria": "Gaseosas"
+    },
+    {
+      "id": 6,
+      "nombre": "Vinos",
+      "descripcion": "Variedades en Santa Emma, Santa Rita, Sol y Viento",
+      "precio": 8990,
+      "ingredientes": [
+        ""
+      ],
+      "image": "./src/assets/image/vino.jpg",
+      "categoria": "Gaseosas"
+    }
+  ]
+}

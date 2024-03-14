@@ -7,9 +7,9 @@ export const Food = () => {
   return (
     <>
       <Container>
-        <Cards data={menu}/>
+        <Cards data={menu.platos} color={"bg-success text-white"}/>
 
-
+        <Cards data={menu.bebestible} color={"bg-danger text-white"}/>
       </Container>
 
 
