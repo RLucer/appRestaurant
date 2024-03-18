@@ -6,10 +6,10 @@ import menu from "../menu.json";
 export const Food = () => {
   return (
     <>
-      <Container>
-        <Cards data={menu.platos} color={"bg-success text-white"}/>
+      <Container className="mt-2">
+        <Cards data={menu.platos} color={"p-2 mb-2  bg-secondary text-white"}/>
 
-        <Cards data={menu.bebestible} color={"bg-danger text-white"}/>
+        <Cards data={menu.bebestible} color={"p-2 mb-2 bg-dark text-white"}/>
       </Container>
 
 

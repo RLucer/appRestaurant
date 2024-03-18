@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './FormContact.css';
+import Form from 'react-bootstrap/Form';
 const FormContact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -18,53 +19,58 @@ const FormContact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // Aquí puedes enviar los datos a tu servidor o hacer lo que necesites
-    // También puedes añadir validaciones aquí antes de enviar los datos
+    console.log(formData);
+    //**/ enviar datos a la api / */
   };
 
   return (
-    <form onSubmit={handleSubmit} className="form">
-      <label htmlFor="name">Nombre:</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        value={formData.name}
-        onChange={handleChange}
-        required
-      />
 
-      <label htmlFor="email">Correo Electrónico:</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        value={formData.email}
-        onChange={handleChange}
-        required
-      />
 
-      <label htmlFor="subject">Asunto:</label>
-      <input
-        type="text"
-        id="subject"
-        name="subject"
-        value={formData.subject}
-        onChange={handleChange}
-        required
-      />
+    <Form onSubmit={handleSubmit} >
 
-      <label htmlFor="message">Mensaje:</label>
-      <textarea
-        id="message"
-        name="message"
-        value={formData.message}
-        onChange={handleChange}
-        required
-      />
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          required />
+        <Form.Label>Name </Form.Label>
 
-      <button type="submit">Enviar</button>
-    </form>
+        <Form.Control type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          required />
+        <Form.Label>Subject </Form.Label>
+
+        <Form.Control type="text"
+          id="subject"
+          name="subject"
+          value={formData.subject}
+          onChange={handleChange}
+          required />
+        <Form.Label>Email address</Form.Label>
+
+        <Form.Label>Message</Form.Label>
+        <Form.Control
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          required
+          as="textarea" rows={3} />
+
+      </Form.Group>
+        <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
+
+
+
   );
 };
 

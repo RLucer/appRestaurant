@@ -10,11 +10,11 @@ export const About = () => {
 
   return (
     <>
-      <Container fluid="md" className="mt-5">
+      <Container fluid="md" className="mt-2" >
   
         <Row>
           <Col sm={8} >
-            <Imagen
+            <Imagen 
               src={"./src/assets/image/chef1.jpg"}
               width={"75%"}
               height={"auto"}

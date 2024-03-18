@@ -7,16 +7,24 @@ import Ima from '../component/Ima';
 
 export const Home = () => {
   return (
-    <Container >
-      <Row>
-        <Col sm={12}><Ima /></Col>
-    
-      </Row>
-      {/* <Row>
-        <Col sm></Col>
-        <Col sm></Col>
-        <Col sm></Col>
-      </Row> */}
-    </Container>
+    // <Container className="g-5 mt-2">
+    //   <Row>
+    //     <Col sm={12}>
+    //       <Ima />
+    //     </Col>
+
+    //   </Row>
+    //   {/* <Row>
+    //     <Col sm></Col>
+    //     <Col sm></Col>
+    //     <Col sm></Col>
+    //   </Row> */}
+    // </Container>
+    <>
+      <Container className='mt-2'>
+        <Ima />
+      </Container>
+
+    </>
   );
 }

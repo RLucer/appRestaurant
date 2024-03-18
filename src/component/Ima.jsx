@@ -6,20 +6,22 @@ function Ima() {
   return (
     <Carousel data-bs-theme="ligth">
       <Carousel.Item>
+
         <img
-          className="d-block w-100"
-          src="./src/assets/image/photo2.jpg"
+          className="d-block w-auto"
+          src="./src/assets/image/photo_100.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5><ButtonSend /></h5>
+        <h5><ButtonSend /></h5>
           <h5>xxxxxxxxxxxx</h5>
           <h3><p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></h3>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-auto"
           src="./src/assets/image/photo3.jpg"
           alt="Second slide"
         />
@@ -37,7 +39,7 @@ function Ima() {
           </p></h3>
         </Carousel.Caption>
         <img
-          className="d-block w-100"
+          className="d-block w-auto"
           src="./src/assets/image/photo5.jpg"
           alt="Third slide"
         />

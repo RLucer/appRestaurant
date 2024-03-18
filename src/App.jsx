@@ -21,7 +21,7 @@ function App() {
         <Route path="/Food" element={<Food />}></Route>
         <Route path="/*" element={<Navigate to={"/"} />} ></Route>
       </Routes>
- 
+      <NavbarMenu />
     </>
   );
 }

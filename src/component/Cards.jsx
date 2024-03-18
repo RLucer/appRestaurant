@@ -6,10 +6,10 @@ function Cards(prop) {
     return (
         <div>
             <h1></h1>
-            <Row xs={1} md={2} lg={3} className="g-5 mt-5"  >
+            <Row xs={1} md={2} lg={3} >
                 {prop.data.map((platos, idx) => (
                     <Col key={idx}>
-                        <Card border="" className={prop.color} style={{ textAlign : 'center'}} >
+                        <Card border="" className={prop.color}  style={{ textAlign : 'center'}} >
                             <Card.Header  >
                             <small className="text-light">{platos.categoria}</small>
                             </Card.Header>
