@@ -1,10 +1,10 @@
 import React from "react";
 
-export const InputData = () => {
+export const InputData = (prop) => {
   return (
     <>
       <label htmlFor="">
-        <input name="firstname" type="text" />
+        <input name={prop.firstname} type={prop.type} />
       </label>
     </>
   );
