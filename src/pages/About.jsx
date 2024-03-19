@@ -2,19 +2,22 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import  './About.css';
+import './About.css';
 import { Imagen } from "../component/Imagen";
 
 export const About = () => {
-  //pasamos la imagenes y las medidas por props
+
 
   return (
     <>
       <Container fluid="md" className="mt-2" >
-  
         <Row>
+          <Col className="mb-5"><h2>About us...</h2>
+          </Col></Row>
+        <Row>
+
           <Col sm={8} >
-            <Imagen 
+            <Imagen
               src={"./image/chef1.jpg"}
               width={"75%"}
               height={"auto"}
@@ -46,7 +49,7 @@ export const About = () => {
         <Row>
           <Col sm={4}>
             <p className="text-just">
-             Chef 2,  was born in
+              Chef 2,  was born in
               Quilpué, in the Valparaíso region of Chile, 34 years ago. She
               defines herself as a mixed race chef of acid roots, spicy soul and
               vegetable heart. She did her gastronomy studies at Chile
@@ -104,7 +107,7 @@ export const About = () => {
             <Imagen src={"./image/chef6.jpg"} width={300} height={300} />
           </Col>
           <br />
-      
+
         </Row>
         <br /><br />
       </Container>

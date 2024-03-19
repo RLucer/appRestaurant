@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './FormContact.css';
 import Form from 'react-bootstrap/Form';
-
 import Button from 'react-bootstrap/Button';
 
 const FormContact = () => {
@@ -28,7 +27,8 @@ const FormContact = () => {
 
   return (
 
-
+<>
+<h2>Contact us</h2>
     <Form onSubmit={handleSubmit} >
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -81,7 +81,7 @@ const FormContact = () => {
 
     </Form>
 
-
+    </>
 
   );
 };
