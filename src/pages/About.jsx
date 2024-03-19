@@ -15,14 +15,14 @@ export const About = () => {
         <Row>
           <Col sm={8} >
             <Imagen 
-              src={"./src/assets/image/chef1.jpg"}
+              src={"./image/chef1.jpg"}
               width={"75%"}
               height={"auto"}
             />
           </Col>
           <Col sm={4}>
             <p className="text-just">
-              ANDREA BERNARDI Andrea Bernardi, born on 5 July 1977 in Rome.
+              Chef one, born on 5 July 1977 in Rome.
               Raised in Genzano di Roma, he learned the basics of Italian
               cuisine with his father’s sister Rita; they shared long hours in
               the kitchen. Due to his eagerness to learn more and acquire
@@ -46,7 +46,7 @@ export const About = () => {
         <Row>
           <Col sm={4}>
             <p className="text-just">
-              FERNANDA FUENTES CÁRDENAS Fernanda Fuentes Cárdenas was born in
+             Chef 2,  was born in
               Quilpué, in the Valparaíso region of Chile, 34 years ago. She
               defines herself as a mixed race chef of acid roots, spicy soul and
               vegetable heart. She did her gastronomy studies at Chile
@@ -68,7 +68,7 @@ export const About = () => {
           </Col>
           <Col sm={8} align="right" >
             <Imagen
-              src={"./src/assets/image/chef2.jpg"}
+              src={"./image/chef2.jpg"}
               width={"75%"}
               height={"auto"}
             />
@@ -86,22 +86,22 @@ export const About = () => {
 
           <Col sm>
             <br />
-            <Imagen src={"./src/assets/image/chef3.jpg"} width={300} height={300} />
+            <Imagen src={"./image/chef3.jpg"} width={300} height={300} />
           </Col>
           <br />
           <Col sm>
             <br />
-            <Imagen src={"./src/assets/image/chef4.jpg"} width={300} height={300} />
+            <Imagen src={"./image/chef4.jpg"} width={300} height={300} />
           </Col>
           <br />
           <Col sm>
             <br />
-            <Imagen src={"./src/assets/image/chef5.jpg"} width={300} height={300} />
+            <Imagen src={"./image/chef5.jpg"} width={300} height={300} />
           </Col>
           <br />
           <Col sm>
             <br />
-            <Imagen src={"./src/assets/image/chef6.jpg"} width={300} height={300} />
+            <Imagen src={"./image/chef6.jpg"} width={300} height={300} />
           </Col>
           <br />
       

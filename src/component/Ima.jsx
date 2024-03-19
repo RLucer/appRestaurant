@@ -9,7 +9,7 @@ function Ima() {
 
         <img
           className="d-block w-auto"
-          src="./src/assets/image/photo_100.jpg"
+          src="./image/photo_100.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -22,7 +22,7 @@ function Ima() {
       <Carousel.Item>
         <img
           className="d-block w-auto"
-          src="./src/assets/image/photo3.jpg"
+          src="./image/photo3.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -40,7 +40,7 @@ function Ima() {
         </Carousel.Caption>
         <img
           className="d-block w-auto"
-          src="./src/assets/image/photo5.jpg"
+          src="./image/photo5.jpg"
           alt="Third slide"
         />
 

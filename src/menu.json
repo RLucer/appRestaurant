@@ -13,7 +13,7 @@
         "cebolla",
         "pan"
       ],
-      "image": "./src/assets/image/menu_burger_3.jpg",
+      "image": "./image/menu_burger_3.jpg",
       "categoria": "Comida rápida"
     },
     {
@@ -26,7 +26,7 @@
         "arroz integral",
         "espárragos"
       ],
-      "image": "./src/assets/image/menu_pescado.jpg",
+      "image": "./image/menu_pescado.jpg",
       "categoria": "Pescados y mariscos"
     },
     {
@@ -40,7 +40,7 @@
         "queso parmesano",
         "aderezo César"
       ],
-      "image": "./src/assets/image/menu_cesar.jpg",
+      "image": "./image/menu_cesar.jpg",
       "categoria": "Ensaladas"
     }
   ],
@@ -53,7 +53,7 @@
       "ingredientes": [
         ""
       ],
-      "image": "./src/assets/image/bebida.jpg",
+      "image": "./image/bebida.jpg",
       "categoria": "Gaseosas"
     },
     {
@@ -64,7 +64,7 @@
       "ingredientes": [
         ""
       ],
-      "image": "./src/assets/image/pisco_sour.jpg",
+      "image": "./image/pisco_sour.jpg",
       "categoria": "Gaseosas"
     },
     {
@@ -75,7 +75,7 @@
       "ingredientes": [
         ""
       ],
-      "image": "./src/assets/image/vino.jpg",
+      "image": "./image/vino.jpg",
       "categoria": "Gaseosas"
     }
   ]

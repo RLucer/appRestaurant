@@ -9,7 +9,7 @@ export const Contact = () => {
         <Row>
         <Col sm={7} >
             <Imagen 
-              src={"./src/assets/image/photo_contact.jpg"}
+              src={"./image/photo_contact.jpg"}
               width={"75%"}
               height={"auto"}
             />

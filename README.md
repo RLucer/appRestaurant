@@ -1,8 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# appRestaurant
 
-Currently, two official plugins are available:
+Sitio web desarrollado con Framework REACT js en el frontend, con fines educativos para ser presentado en bootcamp UDD, ademas se utilizo :
+- HTML5
+- CCS
+- BOOSTRAP REACT
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/RLucer/appRestaurant.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+
+## Authors
+
+- [@RLucer](https://github.com/RLucer/)
+

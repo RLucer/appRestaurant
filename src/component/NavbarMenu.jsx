@@ -9,12 +9,15 @@ function NavbarMenu() {
     <Navbar expand="lg" className="bg-body">
       <Container>
         <Navbar.Brand as={Link} to="/appRestaurant/">  <img
-              src="/appRestaurant/src/assets/image/logo2.jpg"
+              src="./image/logo2.jpg"
               width="180"
               height="180"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
-            /> </Navbar.Brand>
+            /> 
+            
+        
+            </Navbar.Brand>
     
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
