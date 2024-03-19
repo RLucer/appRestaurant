@@ -1,31 +1,35 @@
-import React from "react";
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const MapaGoogle = ({ center, zoom }) => {
+  // Coordenadas y detalles del marcador
 
-export default function SimpleMap(){
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627
-    },
-    zoom: 11
+ const marker = {
+    lat: -33.732599,
+    lng: -70.914120,
+    name: 'ANTOJITOS'
   };
 
+// Componente para el marcador
+const Marker = ({ name }) => <div>{name}</div>;
   return (
-    // Important! Always set the container height explicitly
-    <div style={{ height: '50vh', width: '75%' }}>
+    <div style={{ height: '400px', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
+        bootstrapURLKeys={{ key: 'AIzaSyB-ymddOr1u9wGwOtxjZ0clN1Z5IdWsGL8' }}
+        defaultCenter={center}
+        defaultZoom={zoom}
       >
-        <AnyReactComponent
-          lat={59.955413}
-          lng={30.337844}
-          text="My Marker"
+        {/* Marcador */}
+        <Marker
+          lat={marker.lat}
+          lng={marker.lng}
+          name={marker.name}
+          color="red"
         />
       </GoogleMapReact>
     </div>
   );
-}
+};
+
+
+export default MapaGoogle;
