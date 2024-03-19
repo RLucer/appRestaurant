@@ -7,10 +7,10 @@ export const Reserve = () => {
     <>
       <Container className="mt-2">
         <Row>
-          <Col sm={4} >
+          <Col sm={5} >
             <FormRes />
           </Col>
-          <Col sm={8} >
+          <Col sm={7} className='aling=rigth' >
             <Imagen
               src={"./image/photo_contact.jpg"}
               width={"75%"}

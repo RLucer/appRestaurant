@@ -7,10 +7,10 @@ export const Contact = () => {
     <>
       <Container className="mt-2">
         <Row>
-          <Col sm={8} >
+          <Col sm={7} >
           <MapaGoogle center={{ lat: -33.732599, lng: -70.914120 }} zoom={13} />
           </Col>
-          <Col sm={4} >
+          <Col sm={5} >
             <FormContact />
           </Col>
         </Row>

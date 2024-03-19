@@ -24,7 +24,7 @@ const Marker = ({ name }) => <div>{name}</div>;
           lat={marker.lat}
           lng={marker.lng}
           name={marker.name}
-          color="red"
+          color="Blue"
         />
       </GoogleMapReact>
     </div>

@@ -26,8 +26,7 @@ const FormRes = () => {
         <div>
             <h4>Make reservation</h4>
             <Form onSubmit={handleSubmit} >
-                <Form.Group className="mb-3 mt-3" controlId="exampleForm.ControlInput1">
-
+                <Form.Group className="mb-3 mt-3" >
                     <Form.Control className="mb-3"
                         type="text"
                         value={nombre}

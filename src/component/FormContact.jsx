@@ -30,7 +30,7 @@ const FormContact = () => {
 <>
 <h3>Contact us</h3>
     <Form onSubmit={handleSubmit} >
-      <Form.Group className="mb-3 mt-3" controlId="exampleForm.ControlInput1">
+      <Form.Group className="mb-3 mt-3" >
         {/* <Form.Label>Email address</Form.Label> */}
         <Form.Control className="mb-3"  type="email"
           id="email"
