@@ -28,10 +28,9 @@ const FormContact = () => {
   return (
 
 <>
-<h2>Contact us</h2>
+<h3>Contact us</h3>
     <Form onSubmit={handleSubmit} >
-
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+      <Form.Group className="mb-3 mt-3" controlId="exampleForm.ControlInput1">
         {/* <Form.Label>Email address</Form.Label> */}
         <Form.Control className="mb-3"  type="email"
           id="email"
@@ -71,7 +70,7 @@ const FormContact = () => {
           as="textarea" rows={3} />
 
       </Form.Group >
-      <div className="d-grid gap-2"> 
+      <div className="d-grid gap-2 mt-lg-5"> 
         <Button variant="success" type="submit" size="lg" active>
           Submit
         </Button>

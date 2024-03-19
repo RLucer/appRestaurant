@@ -8,6 +8,7 @@ const FormRes = () => {
     const [fecha, setFecha] = useState('');
     const [hora, setHora] = useState('');
     const [numPersonas, setNumPersonas] = useState('');
+    const [mail, setMail] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -15,6 +16,7 @@ const FormRes = () => {
         console.log('Reserva enviada:', { nombre, fecha, hora, numPersonas });
         // Acá resetear los campos después de enviar la reserva
         setNombre('');
+        setMail('');
         setFecha('');
         setHora('');
         setNumPersonas('');
@@ -22,12 +24,9 @@ const FormRes = () => {
 
     return (
         <div>
-            <h2>Make reservation</h2>
-
-
+            <h4>Make reservation</h4>
             <Form onSubmit={handleSubmit} >
-
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-3 mt-3" controlId="exampleForm.ControlInput1">
 
                     <Form.Control className="mb-3"
                         type="text"
@@ -35,6 +34,15 @@ const FormRes = () => {
                         onChange={(e) => setNombre(e.target.value)}
                         required
                         placeholder='Name ' />
+
+                    <Form.Control className="mb-3" type="email"
+                        id="mail"
+                        name="mail"
+                        value={mail}
+                        onChange={(e) => setFecha(e.target.value)}
+                        placeholder='Email'
+                        required />
+
 
                     <Form.Control className="mb-3"
                         type="date"
@@ -61,9 +69,11 @@ const FormRes = () => {
                     />
 
                 </Form.Group >
-                <Button variant="success" type="submit" size="lg" active>
-                    Request Reservation
-                </Button>
+                <div className="d-grid gap-2 mt-lg-5">
+                    <Button variant="success" type="submit" size="lg" active>
+                        Request Reservation
+                    </Button>
+                </div>
             </Form>
         </div>
     );
