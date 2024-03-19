@@ -8,7 +8,7 @@ Sitio web desarrollado con Framework REACT js en el frontend, con fines educativ
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/public/screenshot.png)
 
 
 ## Run Locally
