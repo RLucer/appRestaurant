@@ -14,8 +14,8 @@ function Ima() {
         />
         <Carousel.Caption>
         <h5><ButtonSend /></h5>
-          <h5>xxxxxxxxxxxx</h5>
-          <h3><p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></h3>
+          <h5>WHATS SOUNDS GOOD TODAY?</h5>
+          <h3><p>The buffet breakfast is served in the lounge on the ground floor and also outside on our little patio.</p></h3>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -27,15 +27,16 @@ function Ima() {
         />
         <Carousel.Caption>
           <h5><ButtonSend /></h5>
-          <h5>Second slide label</h5>
-          <h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></h3>
+          <h5>FOOD AND DRINK SPECIALS</h5>
+          <h3><p>Flavors that captivate, experiences that inspire. Welcome to our restaurant!.</p></h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Carousel.Caption>
           <h5><ButtonSend /></h5>
+          <h5>World flavors in one place: our restaurant.</h5>
           <h3><p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Discover a feast of authentic flavors with every visit.
           </p></h3>
         </Carousel.Caption>
         <img
