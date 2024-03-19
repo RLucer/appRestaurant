@@ -5,6 +5,7 @@ import { Reserve } from "./pages/Reserve";
 import { Contact } from "./pages/Contact";
 import NavbarMenu from "./component/NavbarMenu";
 import { Food } from "./pages/Food";  
+import Footer from "./component/Footer.jsx";
 
 
 
@@ -14,15 +15,15 @@ function App() {
       <NavbarMenu />
       
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/About" element={<About />}></Route>
-        <Route path="/Reserve" element={<Reserve />}></Route>
-        <Route path="/Contact" element={<Contact />}></Route>
-        <Route path="/Food" element={<Food />}></Route>
-        <Route path="/*" element={<Navigate to={"/"} />} ></Route>
+        <Route path="/appRestaurant/" element={<Home />}></Route>
+        <Route path="/appRestaurant/About" element={<About />}></Route>
+        <Route path="/appRestaurant/Reserve" element={<Reserve />}></Route>
+        <Route path="/appRestaurant/Contact" element={<Contact />}></Route>
+        <Route path="/appRestaurant/Food" element={<Food />}></Route>
+        <Route path="/appRestaurant/*" element={<Navigate to={"/appRestaurant/"} />} ></Route>
       </Routes>
-      <NavbarMenu />
-    </>
+    <Footer />
+   </>
   );
 }
 

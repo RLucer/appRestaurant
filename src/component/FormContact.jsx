@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './FormContact.css';
 import Form from 'react-bootstrap/Form';
+
+import Button from 'react-bootstrap/Button';
+
 const FormContact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -20,7 +23,7 @@ const FormContact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    //**/ enviar datos a la api / */
+    //**/ enviar datos a la api para gestionar / */
   };
 
   return (
@@ -29,44 +32,53 @@ const FormContact = () => {
     <Form onSubmit={handleSubmit} >
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email"
+        {/* <Form.Label>Email address</Form.Label> */}
+        <Form.Control className="mb-3"  type="email"
           id="email"
           name="email"
           value={formData.email}
           onChange={handleChange}
+          placeholder='Email'
           required />
-        <Form.Label>Name </Form.Label>
+        {/* <Form.Label>Name </Form.Label> */}
 
-        <Form.Control type="text"
+        <Form.Control className="mb-3" type="text"
           id="name"
           name="name"
           value={formData.name}
           onChange={handleChange}
+          placeholder='Name'
           required />
-        <Form.Label>Subject </Form.Label>
 
-        <Form.Control type="text"
+        {/* <Form.Label>Subject </Form.Label> */}
+        <Form.Control className="mb-3" type="text"
           id="subject"
           name="subject"
           value={formData.subject}
           onChange={handleChange}
+          placeholder='Subject'
           required />
-        <Form.Label>Email address</Form.Label>
+     
 
-        <Form.Label>Message</Form.Label>
+        {/* <Form.Label>Message</Form.Label> */}
         <Form.Control
           id="message"
           name="message"
           value={formData.message}
           onChange={handleChange}
+          placeholder='Message....'
           required
           as="textarea" rows={3} />
 
-      </Form.Group>
-        <Button variant="primary" type="submit">
-        Submit
-      </Button>
+      </Form.Group >
+      <div className="d-grid gap-2"> 
+        <Button variant="success" type="submit" size="lg" active>
+          Submit
+        </Button>
+      </div>
+
+
+
     </Form>
 
 

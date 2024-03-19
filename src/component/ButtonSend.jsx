@@ -5,7 +5,7 @@ function ButtonSend() {
   return (
     <>
 
-      <Button  variant="success" size="lg" as= {Link} to ="/Reserve">Reservar</Button>{' '}
+      <Button  variant="success" size="lg" as= {Link} to ="/appRestaurant/Reserve">Reserve</Button>{' '}
    
     </>
   );

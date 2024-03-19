@@ -8,7 +8,7 @@ function NavbarMenu() {
   return (
     <Navbar expand="lg" className="bg-body">
       <Container>
-        <Navbar.Brand as={Link} to="/">  <img
+        <Navbar.Brand as={Link} to="/appRestaurant/">  <img
               src="./src/assets/image/logo2.jpg"
               width="180"
               height="180"
@@ -20,10 +20,10 @@ function NavbarMenu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {/* <Nav.Link href="#home">Home</Nav.Link> */}
-            <Nav.Link as={Link} to="/About">ABOUT</Nav.Link>
-            <Nav.Link as={Link} to="/Food">MENU</Nav.Link>
-            <Nav.Link as={Link} to="/Reserve">RESERVATIONS</Nav.Link>
-            <Nav.Link as={Link} to="/Contact">CONTACT </Nav.Link>
+            <Nav.Link as={Link} to="/appRestaurant/About">ABOUT</Nav.Link>
+            <Nav.Link as={Link} to="/appRestaurant/Food">MENU</Nav.Link>
+            <Nav.Link as={Link} to="/appRestaurant/Reserve">RESERVATIONS</Nav.Link>
+            <Nav.Link as={Link} to="/appRestaurant/Contact">CONTACT </Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/Food">Oun Letter</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

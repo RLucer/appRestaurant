@@ -7,14 +7,14 @@ export const Contact = () => {
     <>
       <Container className="mt-2">
         <Row>
-        <Col sm={8} >
+        <Col sm={7} >
             <Imagen 
               src={"./src/assets/image/photo_contact.jpg"}
               width={"75%"}
               height={"auto"}
             />
           </Col>
-          <Col sm={4} >
+          <Col sm={5} >
             <FormContact />
           </Col>
         </Row>
