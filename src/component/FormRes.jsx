@@ -38,7 +38,7 @@ const FormRes = () => {
                         id="mail"
                         name="mail"
                         value={mail}
-                        onChange={(e) => setFecha(e.target.value)}
+                        onChange={(e) => setMail(e.target.value)}
                         placeholder='Email'
                         required />
 
