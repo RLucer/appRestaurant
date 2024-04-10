@@ -23,7 +23,7 @@ function NavbarMenu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {/* <Nav.Link href="#home">Home</Nav.Link> */}
-            <Nav.Link as={Link} to="/appRestaurant/About">ABOUT</Nav.Link>
+            <Nav.Link as={Link} to="/appRestaurant/About">ABOUT vercel</Nav.Link>
             <Nav.Link as={Link} to="/appRestaurant/Food">MENU</Nav.Link>
             <Nav.Link as={Link} to="/appRestaurant/Reserve">RESERVATIONS</Nav.Link>
             <Nav.Link as={Link} to="/appRestaurant/Contact">CONTACT </Nav.Link>
